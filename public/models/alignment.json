@@ -1,0 +1,38 @@
+{
+  "case_id": "case-001",
+  "geometry_status": "synthetic_approximation",
+  "alignment_status": "manual_unverified",
+  "units": "metres",
+  "head_diameter_mm": 20.5,
+  "stem_diameter_mm": 7,
+  "parameters": {
+    "x": 22,
+    "y": -13.5,
+    "z": 39.5,
+    "rx": 70.5,
+    "ry": -14,
+    "rz": -106,
+    "headHeight": 10,
+    "stemLength": 15,
+    "headDiameter": 20.5,
+    "stemDiameter": 7
+  },
+  "matrix_column_major": [
+    -0.26744974835125035,
+    -0.25801785691386997,
+    -0.9283843049192648,
+    0,
+    0.9327081154017671,
+    -0.31122115600081246,
+    -0.18220033897114918,
+    0,
+    -0.24192189559966776,
+    -0.9146410102171735,
+    0.323891368916141,
+    0,
+    0.022,
+    -0.0135,
+    0.0395,
+    1
+  ]
+}

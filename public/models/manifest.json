@@ -1,0 +1,95 @@
+{
+  "case_id": "case-001",
+  "series": "CODO DERECHO 0,60 Br60 S1",
+  "dimensions_zyx": [
+    615,
+    512,
+    512
+  ],
+  "spacing_zyx_mm": [
+    0.34999999999990905,
+    0.3563671875,
+    0.3563671875
+  ],
+  "affine_zyx_to_lps": [
+    [
+      0.0,
+      0.0,
+      0.3563671875,
+      36.04018359375
+    ],
+    [
+      0.0,
+      0.3563671875,
+      0.0,
+      -222.79181640625
+    ],
+    [
+      0.34999999999990905,
+      0.0,
+      0.0,
+      770.214
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_count": 615,
+  "status": "requires_human_review",
+  "threshold_hu": 300,
+  "source_geometry": "DICOM patient coordinates",
+  "quantiles": [
+    -1685.0,
+    -1042.0,
+    -960.0,
+    75.0,
+    574.0,
+    2257.0
+  ],
+  "mesh_vertices": 716265,
+  "mesh_faces": 1434228,
+  "center_lps_mm": [
+    99.64079623413085,
+    -129.39404457092286,
+    883.4266169204712
+  ],
+  "glb_units": "metres",
+  "glb_from_lps": "(LPS-center)*[1,-1,-1]/1000",
+  "mesh_watertight": false,
+  "components_retained": 6,
+  "anatomical_labels": "unassigned",
+  "implant_alignment": "not_established",
+  "skin_exclusion_mm": 3.5636718750000003,
+  "limitations": [
+    "Threshold segmentation requires review",
+    "Skin exclusion may omit superficial fragments",
+    "No anatomical component labels confirmed",
+    "Mesh boundaries may be open at scan limits"
+  ],
+  "removed_components": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "removed_voxels": 7258,
+  "removal_rule": "Disconnected components confined to slices 33-49, reviewed as external cast; all components beyond slice 50 retained",
+  "gaussian_sigma_voxels": 0.9,
+  "marching_cubes_step_size": 1,
+  "taubin_iterations": 10,
+  "smoothing_displacement_mm": {
+    "max": 0.257718122449355,
+    "p95": 0.13794004518365516
+  }
+}
